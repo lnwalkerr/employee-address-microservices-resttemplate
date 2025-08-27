@@ -1,4 +1,0 @@
-INDEX VERSION 1.134+C:\Users\Dell\Desktop\JAVA_WORK\JAVA_EE\microservices-workspace\employee-address-microservices\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-2009273.index
-1979675648.index

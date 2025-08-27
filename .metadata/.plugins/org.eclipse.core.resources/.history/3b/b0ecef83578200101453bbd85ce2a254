@@ -1,5 +1,0 @@
-package com.walker.microservices.employee.controller;
-
-public class EmployeeController {
-
-}
