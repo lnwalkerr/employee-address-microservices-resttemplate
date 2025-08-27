@@ -1,0 +1,16 @@
+# Application Name
+spring.application.name=employee-service
+
+# Server Port
+server.port=8081
+
+# Database Configuration (MySQL)
+spring.datasource.url=jdbc:mysql://localhost:3306/employee_db?createDatabaseIfNotExist=true
+spring.datasource.username=root
+spring.datasource.password=18114106
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+# Hibernate / JPA Config
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect

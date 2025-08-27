@@ -1,0 +1,12 @@
+package com.walker.microservices.address.repository;
+
+import com.walker.microservices.address.entity.Address;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface AddressRepository extends JpaRepository<Address, Long> {
+    // You can add custom queries if needed, for example:
+    // List<Address> findByState(String state);
+    // List<Address> findByEmployeeId(Long employeeId);
+}

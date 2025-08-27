@@ -1,0 +1,9 @@
+package com.walker.microservices.address.service;
+
+import com.walker.microservices.address.dto.AddressResponse;
+
+public interface AddressService {
+	
+	 AddressResponse getEmployeeById(Long id);
+
+}

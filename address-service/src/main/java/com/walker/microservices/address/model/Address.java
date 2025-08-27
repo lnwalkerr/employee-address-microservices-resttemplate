@@ -1,0 +1,29 @@
+package com.walker.microservices.address.model;
+
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Table(name = "address")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Address {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(nullable = false)
+    private String lane1;
+
+    private String lane2;
+
+    @Column(nullable = false)
+    private String state;
+
+    @Column(name = "employee_id", nullable = false)
+    private Long employeeId;
+}

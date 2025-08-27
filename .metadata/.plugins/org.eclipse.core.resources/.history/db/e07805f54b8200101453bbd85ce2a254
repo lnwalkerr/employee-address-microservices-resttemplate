@@ -1,0 +1,5 @@
+package com.walker.microservices.employee.dto;
+
+public class EmployeeRequest {
+
+}
